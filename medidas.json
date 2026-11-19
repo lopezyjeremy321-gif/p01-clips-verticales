@@ -1,0 +1,756 @@
+{
+ "fuente": {
+  "codec": "h264",
+  "w": 1920,
+  "h": 1080,
+  "fps_txt": "60000/1001",
+  "fps": 59.94,
+  "frames": 201989,
+  "dur_s": 3369.85,
+  "MB": 1173.36,
+  "kbps": 2786,
+  "pix_fmt": "yuv420p",
+  "audio": "aac 48000 Hz 2 canales"
+ },
+ "clips": [
+  {
+   "n": 1,
+   "nombre": "clip-01-crew-13-teams-fixed-dragon-s-oxidizer-leak-befor",
+   "titular": "Crew-13 teams fixed Dragon's oxidizer leak before launch",
+   "id": "1315132510",
+   "datos": "datos-temp",
+   "origen_ini_s": 254.5,
+   "origen_fin_s": 299.2,
+   "partes": [
+    [
+     254.52,
+     273.32
+    ],
+    [
+     273.84,
+     299.19
+    ]
+   ],
+   "puntaje_juez": 86,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2647,
+    "dur_s": 44.2,
+    "MB": 40.36,
+    "kbps": 7306,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.1,
+    "LRA": 2.6,
+    "TP": -1.4
+   },
+   "post": {
+    "titular": "Crew-13 teams fixed Dragon's oxidizer leak before launch",
+    "excluidas": [
+     "NASA logo"
+    ],
+    "a_broll_prepara_s": 19.0,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 39.0,
+    "c_loudnorm_2p_s": 10.7,
+    "medido_antes": {
+     "input_i": "-26.88",
+     "input_tp": "-10.41",
+     "input_lra": "3.10"
+    },
+    "broll_usados": 3
+   },
+   "broll": [
+    {
+     "consulta": "Launch Pad 39A",
+     "autor": "Bill Ingalls",
+     "licencia": "Public domain",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrightly%20lit%20STS-135%20on%20launch%20pad%2039a.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 3.3199999999999648
+    },
+    {
+     "consulta": "NASA",
+     "autor": "NASA",
+     "licencia": "Public domain",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANASA%20HQ%20Building.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 7.599999999999994
+    },
+    {
+     "consulta": "SpaceX",
+     "autor": "Original: NASA Johnson Space Center Derivative work: Nythar",
+     "licencia": "Public domain",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACRS-20%20Dragon%E2%80%93Enhanced.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 8.819999999999965
+    }
+   ],
+   "preview_MB": 1.97,
+   "destacado": false
+  },
+  {
+   "n": 2,
+   "nombre": "clip-02-nasa-crew-ground-teams-and-hardware-are-healthy-",
+   "titular": "NASA: crew, ground teams and hardware are healthy and ready",
+   "id": "41af5ff63b",
+   "datos": "datos-temp2",
+   "origen_ini_s": 792.1,
+   "origen_fin_s": 833.0,
+   "partes": [
+    [
+     792.1,
+     793.5
+    ],
+    [
+     794.16,
+     798.68
+    ],
+    [
+     799.32,
+     821.72
+    ],
+    [
+     822.36,
+     832.99
+    ]
+   ],
+   "puntaje_juez": 85,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2334,
+    "dur_s": 39.0,
+    "MB": 33.77,
+    "kbps": 6928,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.1,
+    "LRA": 2.3,
+    "TP": -1.4
+   },
+   "post": {
+    "titular": "NASA: crew, ground teams and hardware are healthy and ready",
+    "excluidas": [],
+    "a_broll_prepara_s": 17.5,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 69.0,
+    "c_loudnorm_2p_s": 11.2,
+    "medido_antes": {
+     "input_i": "-28.54",
+     "input_tp": "-8.50",
+     "input_lra": "3.30"
+    },
+    "broll_usados": 2
+   },
+   "broll": [
+    {
+     "consulta": "NASA",
+     "autor": "NASA",
+     "licencia": "Public domain",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANASA%20HQ%20Building.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 7.599999999999909
+    },
+    {
+     "consulta": "SpaceX",
+     "autor": "Original: NASA Johnson Space Center Derivative work: Nythar",
+     "licencia": "Public domain",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACRS-20%20Dragon%E2%80%93Enhanced.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 8.43999999999994
+    }
+   ],
+   "preview_MB": 1.8,
+   "destacado": false
+  },
+  {
+   "n": 3,
+   "nombre": "clip-03-a-canadian-astronaut-s-first-mission-to-space",
+   "titular": "A Canadian astronaut's first mission to space",
+   "id": "eede7ff52f",
+   "datos": "datos-temp",
+   "origen_ini_s": 892.0,
+   "origen_fin_s": 928.0,
+   "partes": [
+    [
+     892.08,
+     894.52
+    ],
+    [
+     895.14,
+     906.96
+    ],
+    [
+     907.5,
+     927.97
+    ]
+   ],
+   "puntaje_juez": 84,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2082,
+    "dur_s": 34.8,
+    "MB": 21.17,
+    "kbps": 4866,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.3,
+    "LRA": 4.0,
+    "TP": -1.2
+   },
+   "post": {
+    "titular": "A Canadian astronaut's first mission to space",
+    "a_broll_prepara_s": 292.2,
+    "broll_entidades_por": "heuristica",
+    "b_encuadre_broll_subs_s": 65.7,
+    "c_loudnorm_2p_s": 26.1,
+    "medido_antes": {
+     "input_i": "-29.41",
+     "input_tp": "-11.26",
+     "input_lra": "7.20"
+    },
+    "broll_usados": 3
+   },
+   "broll": [
+    {
+     "consulta": "Canadian Space Agency",
+     "autor": "DLR German Aerospace Center",
+     "licencia": "CC BY 3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARapid%20Eye%20and%20Canadian%20Space%20Agency%20%287635805580%29.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 3.7799999999999727
+    },
+    {
+     "consulta": "Royal Canadian Air Force",
+     "autor": "MarcelX42",
+     "licencia": "CC BY-SA 4.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHannover%20Airport%20Royal%20Canadian%20Air%20Force%20Government%20of%20Canada%20Airbus%20CC-330%20330002%20%28DSC03094%29.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 10.399999999999977
+    },
+    {
+     "consulta": "International Space Station",
+     "autor": "NASA/Goddard Space Flight Center",
+     "licencia": "CC BY 2.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADramatic%20Views%20of%20Hurricane%20Florence%20from%20the%20International%20Space%20Station%20From%209%2012%20%2842828603210%29%20%28cropped%29.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 21.620000000000005
+    }
+   ],
+   "preview_MB": 1.11,
+   "destacado": false
+  },
+  {
+   "n": 4,
+   "nombre": "clip-04-four-science-experiments-heading-to-the-space-st",
+   "titular": "Four science experiments heading to the space station",
+   "id": "4beffd107f",
+   "datos": "datos-temp2",
+   "origen_ini_s": 958.7,
+   "origen_fin_s": 1002.3,
+   "partes": [
+    [
+     958.7,
+     960.08
+    ],
+    [
+     960.74,
+     980.46
+    ],
+    [
+     980.94,
+     989.76
+    ],
+    [
+     990.72,
+     1002.33
+    ]
+   ],
+   "puntaje_juez": 86,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2490,
+    "dur_s": 41.6,
+    "MB": 27.42,
+    "kbps": 5272,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.2,
+    "LRA": 2.7,
+    "TP": -0.4
+   },
+   "post": {
+    "titular": "Four science experiments heading to the space station",
+    "excluidas": [],
+    "a_broll_prepara_s": 1.1,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 81.2,
+    "c_loudnorm_2p_s": 17.6,
+    "medido_antes": {
+     "input_i": "-29.07",
+     "input_tp": "-7.62",
+     "input_lra": "3.00"
+    },
+    "broll_usados": 0
+   },
+   "broll": [],
+   "preview_MB": 1.28,
+   "destacado": false
+  },
+  {
+   "n": 5,
+   "nombre": "clip-05-spacex-s-number-one-priority-getting-the-crew-sa",
+   "titular": "SpaceX's number one priority: getting the crew safely to orbit",
+   "id": "acc27f4366",
+   "datos": "datos-temp2",
+   "origen_ini_s": 1229.2,
+   "origen_fin_s": 1287.6,
+   "partes": [
+    [
+     1229.27,
+     1287.6
+    ]
+   ],
+   "puntaje_juez": 86,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 3496,
+    "dur_s": 58.4,
+    "MB": 37.64,
+    "kbps": 5156,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.0,
+    "LRA": 1.3,
+    "TP": -1.4
+   },
+   "post": {
+    "titular": "SpaceX's number one priority: getting the crew safely to orbit",
+    "excluidas": [],
+    "a_broll_prepara_s": 22.9,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 135.4,
+    "c_loudnorm_2p_s": 19.8,
+    "medido_antes": {
+     "input_i": "-28.23",
+     "input_tp": "-12.27",
+     "input_lra": "1.30"
+    },
+    "broll_usados": 1
+   },
+   "broll": [
+    {
+     "consulta": "SpaceX Starship",
+     "autor": "Lars Plougmann from United States",
+     "licencia": "CC BY-SA 2.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AStarship%20SN16.jpeg",
+     "fuente": "Wikimedia Commons",
+     "t": 26.980000000000018
+    }
+   ],
+   "preview_MB": 1.53,
+   "destacado": false
+  },
+  {
+   "n": 6,
+   "nombre": "clip-06-nasa-wants-more-than-one-way-to-reach-low-earth-",
+   "titular": "NASA wants more than one way to reach low Earth orbit",
+   "id": "b5f5d05a6d",
+   "datos": "datos-temp",
+   "origen_ini_s": 2080.4,
+   "origen_fin_s": 2125.9,
+   "partes": [
+    [
+     2080.45,
+     2090.97
+    ],
+    [
+     2091.47,
+     2099.11
+    ],
+    [
+     2100.29,
+     2109.83
+    ],
+    [
+     2110.79,
+     2118.65
+    ],
+    [
+     2119.13,
+     2125.9
+    ]
+   ],
+   "puntaje_juez": 82,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2538,
+    "dur_s": 42.4,
+    "MB": 34.17,
+    "kbps": 6448,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -13.9,
+    "LRA": 2.9,
+    "TP": -1.4
+   },
+   "post": {
+    "titular": "NASA wants more than one way to reach low Earth orbit",
+    "a_broll_prepara_s": 23.6,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 59.5,
+    "c_loudnorm_2p_s": 12.7,
+    "medido_antes": {
+     "input_i": "-27.89",
+     "input_tp": "-12.04",
+     "input_lra": "5.80"
+    },
+    "broll_usados": 2
+   },
+   "broll": [
+    {
+     "consulta": "Boeing Starliner",
+     "autor": "Balon Greyjoy",
+     "licencia": "CC0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A20180706%20Starliner%20Johnson%20Space%20Center.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 21.100000000000364
+    },
+    {
+     "consulta": "International Space Station",
+     "autor": "NASA/Goddard Space Flight Center",
+     "licencia": "CC BY 2.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADramatic%20Views%20of%20Hurricane%20Florence%20from%20the%20International%20Space%20Station%20From%209%2012%20%2842828603210%29%20%28cropped%29.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 33.98000000000047
+    }
+   ],
+   "preview_MB": 1.64,
+   "destacado": false
+  },
+  {
+   "n": 7,
+   "nombre": "clip-07-cutting-a-valve-out-of-dragon-with-the-oxidizer-",
+   "titular": "Cutting a valve out of Dragon with the oxidizer tank full",
+   "id": "b1c23f0d0f",
+   "datos": "datos-temp",
+   "origen_ini_s": 2182.4,
+   "origen_fin_s": 2237.6,
+   "partes": [
+    [
+     2182.48,
+     2232.14
+    ],
+    [
+     2232.71,
+     2237.55
+    ]
+   ],
+   "puntaje_juez": 86,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 3267,
+    "dur_s": 54.6,
+    "MB": 29.33,
+    "kbps": 4297,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.0,
+    "LRA": 1.8,
+    "TP": -1.4
+   },
+   "post": {
+    "titular": "Cutting a valve out of Dragon with the oxidizer tank full",
+    "a_broll_prepara_s": 29.7,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 66.9,
+    "c_loudnorm_2p_s": 33.9,
+    "medido_antes": {
+     "input_i": "-29.67",
+     "input_tp": "-8.83",
+     "input_lra": "1.50"
+    },
+    "broll_usados": 2
+   },
+   "broll": [
+    {
+     "consulta": "Cape Canaveral",
+     "autor": "NASA",
+     "licencia": "Public domain",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACape%20canaveral.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 14.900000000000091
+    },
+    {
+     "consulta": "SpaceX Dragon",
+     "autor": "SpaceX Photos",
+     "licencia": "CC0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADragon%202%20hover%20test%20%2824159153709%29.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 16.40000000000009
+    }
+   ],
+   "preview_MB": 1.37,
+   "destacado": false
+  },
+  {
+   "n": 8,
+   "nombre": "clip-08-starship-is-still-a-developmental-test-program",
+   "titular": "Starship is still a developmental test program",
+   "id": "cc947ca341",
+   "datos": "datos-temp",
+   "origen_ini_s": 2359.9,
+   "origen_fin_s": 2411.4,
+   "partes": [
+    [
+     2359.95,
+     2362.07
+    ],
+    [
+     2363.03,
+     2368.05
+    ],
+    [
+     2368.59,
+     2406.45
+    ],
+    [
+     2407.55,
+     2411.44
+    ]
+   ],
+   "puntaje_juez": 82,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2930,
+    "dur_s": 48.9,
+    "MB": 24.57,
+    "kbps": 4020,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.0,
+    "LRA": 2.5,
+    "TP": -1.5
+   },
+   "post": {
+    "titular": "Starship is still a developmental test program",
+    "a_broll_prepara_s": 242.4,
+    "broll_entidades_por": "heuristica",
+    "b_encuadre_broll_subs_s": 104.4,
+    "c_loudnorm_2p_s": 28.5,
+    "medido_antes": {
+     "input_i": "-26.99",
+     "input_tp": "-9.55",
+     "input_lra": "1.30"
+    },
+    "broll_usados": 0
+   },
+   "broll": [],
+   "preview_MB": 1.18,
+   "destacado": true
+  },
+  {
+   "n": 9,
+   "nombre": "clip-09-a-new-study-on-how-astronauts-make-a-home-in-spa",
+   "titular": "A new study on how astronauts make a home in space",
+   "id": "2a3646803e",
+   "datos": "datos-temp",
+   "origen_ini_s": 2918.2,
+   "origen_fin_s": 2960.6,
+   "partes": [
+    [
+     2918.27,
+     2960.64
+    ]
+   ],
+   "puntaje_juez": 84,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2539,
+    "dur_s": 42.4,
+    "MB": 30.44,
+    "kbps": 5743,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.5,
+    "LRA": 2.2,
+    "TP": -1.2
+   },
+   "post": {
+    "titular": "A new study on how astronauts make a home in space",
+    "excluidas": [
+     "sports watch"
+    ],
+    "a_broll_prepara_s": 12.0,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 46.4,
+    "c_loudnorm_2p_s": 10.2,
+    "medido_antes": {
+     "input_i": "-28.70",
+     "input_tp": "-9.00",
+     "input_lra": "4.60"
+    },
+    "broll_usados": 2
+   },
+   "broll": [
+    {
+     "consulta": "University of British Columbia",
+     "autor": "Xicotencatl",
+     "licencia": "CC BY-SA 4.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAsian%20Center%20UBC.JPG",
+     "fuente": "Wikimedia Commons",
+     "t": 4.019999999999982
+    },
+    {
+     "consulta": "International Space Station",
+     "autor": "NASA/Goddard Space Flight Center",
+     "licencia": "CC BY 2.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADramatic%20Views%20of%20Hurricane%20Florence%20from%20the%20International%20Space%20Station%20From%209%2012%20%2842828603210%29%20%28cropped%29.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 20.88000000000011
+    }
+   ],
+   "preview_MB": 1.61,
+   "destacado": true
+  },
+  {
+   "n": 10,
+   "nombre": "clip-10-why-the-crew-13-mission-patch-nods-to-apollo-13",
+   "titular": "Why the Crew-13 mission patch nods to Apollo 13",
+   "id": "15b3fbe368",
+   "datos": "datos-temp",
+   "origen_ini_s": 2998.2,
+   "origen_fin_s": 3048.8,
+   "partes": [
+    [
+     2998.25,
+     2999.33
+    ],
+    [
+     3000.27,
+     3007.93
+    ],
+    [
+     3008.47,
+     3016.99
+    ],
+    [
+     3018.27,
+     3023.39
+    ],
+    [
+     3024.11,
+     3048.77
+    ]
+   ],
+   "puntaje_juez": 85,
+   "encuadre": "seguir",
+   "probe": {
+    "codec": "h264",
+    "w": 1080,
+    "h": 1920,
+    "fps_txt": "60000/1001",
+    "fps": 59.94,
+    "frames": 2820,
+    "dur_s": 47.1,
+    "MB": 38.16,
+    "kbps": 6481,
+    "pix_fmt": "yuv420p",
+    "audio": "aac 48000 Hz 2 canales"
+   },
+   "lufs": {
+    "I": -14.2,
+    "LRA": 4.1,
+    "TP": -1.4
+   },
+   "post": {
+    "titular": "Why the Crew-13 mission patch nods to Apollo 13",
+    "a_broll_prepara_s": 28.3,
+    "broll_entidades_por": "llm",
+    "b_encuadre_broll_subs_s": 139.7,
+    "c_loudnorm_2p_s": 11.0,
+    "medido_antes": {
+     "input_i": "-29.05",
+     "input_tp": "-9.61",
+     "input_lra": "5.40"
+    },
+    "broll_usados": 1
+   },
+   "broll": [
+    {
+     "consulta": "Apollo 13 spacecraft",
+     "autor": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+     "licencia": "Public domain",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe%20Earth%20seen%20from%20Apollo%2017.jpg",
+     "fuente": "Wikimedia Commons",
+     "t": 10.079999999999927
+    }
+   ],
+   "preview_MB": 1.9,
+   "destacado": true
+  }
+ ]
+}

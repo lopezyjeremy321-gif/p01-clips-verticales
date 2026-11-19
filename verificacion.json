@@ -1,0 +1,296 @@
+{
+ "etapas": [
+  {
+   "etapa": "Descarga de la fuente (curl, 1,09 GiB)",
+   "tiempo": "277 s",
+   "quien": "Script",
+   "nota": "Desde el servidor de NASA, sin yt-dlp."
+  },
+  {
+   "etapa": "Elegir momentos (juez Groq)",
+   "tiempo": "13 min 33 s y 9 min 38 s",
+   "quien": "Sistema",
+   "nota": "Dos pasadas (la segunda, con 16 candidatos y los minutos ya usados excluidos). Casi todo es espera de límites de uso de Groq."
+  },
+  {
+   "etapa": "Tiempos palabra a palabra (Whisper small, CPU)",
+   "tiempo": "67 min 06 s",
+   "quien": "Sistema",
+   "nota": "Solo sobre los 15 tramos elegidos (12 min 07 s de audio). Una ventana tardó 40 min 25 s por la CPU saturada; las otras 14 sumaron 26 min 41 s para 11 min 18 s de audio."
+  },
+  {
+   "etapa": "Cortar, encuadrar 9:16, subtítulos y portada (motor)",
+   "tiempo": "49 min 10 s",
+   "quien": "Sistema",
+   "nota": "11 clips pasaron por el motor (4 min 28 s por clip de media); 4 fueron rechazados por el revisor de idea completa antes de renderizar, y 1 clip extra quedó de reserva."
+  },
+  {
+   "etapa": "Titulares, selección y exclusión de fotos",
+   "tiempo": "Sin medir",
+   "quien": "Persona",
+   "nota": "Revisar los titulares del juez contra el audio y reescribirlos; descartar 2 fotos de B-roll."
+  },
+  {
+   "etapa": "B-roll, subtítulos encima y −14 LUFS (postproceso.py)",
+   "tiempo": "27 min 58 s",
+   "quien": "Script propio",
+   "nota": "10 clips, 2 min 48 s por clip."
+  }
+ ],
+ "fallos": [
+  "Whisper sobre los 56 min 10 s completos no terminó: el primer intento murió a los 16 min 55 s con un error de memoria (mkl_malloc) y el segundo no avanzó con la CPU saturada por otros procesos. La GPU de 4 GB estaba ocupada por otro proyecto. Por eso se usaron los subtítulos oficiales de NASA para elegir y Whisper solo sobre los tramos elegidos. El flujo normal del motor transcribe todo; no se pudo medir aquí.",
+  "El juez propuso 10 candidatos y el revisor de idea completa rechazó 3; hizo falta una segunda tanda (16 candidatos, 5 útiles tras excluir los ya usados). En total 4 tramos se rechazaron.",
+  "Los titulares del juez no se pueden publicar tal cual: eran sensacionalistas o inexactos («cortaron el tanque» cuando el audio dice «valve», «el fin de la ISS»). Se reescribieron a mano contra el audio. Sin esa revisión humana habría desinformación sobre personas reales.",
+  "El encuadre automático a veces pierde a quien habla. Contado a ojo en las hojas de fotogramas (12 muestras por clip): 8 de los 10 clips tienen al menos una muestra con el plano general de la transmisión recortado a pantalla completa, con las personas pequeñas, o con un panel vacío; el peor (clip 04) tiene 5 de 12. No se corrigió.",
+  "Cara visible en el centro del cuadro: entre 73 % y 98 % de los cuadros según el detector de MediaPipe (mediana 85 %); el resto son planos de audiencia, de pantalla o con la persona fuera del recorte.",
+  "El B-roll libre es relevante a medias: sale de buscar entidades en Wikimedia Commons («International Space Station» devolvió un huracán visto desde la estación). Se descartaron a mano dos fotos; el resto se dejó y está acreditado.",
+  "60 fps: el motor no los inventa. Estos clips salen a 59.94 fps porque la fuente es de 59,94 fps (ffprobe: 60000/1001). Con una fuente de 24 o 30 fps el motor sube a 30 fps, no a 60.",
+  "Sincronía audio y video: se mide el desfase del audio frente a la fuente (correlación de envolventes) y la correlación boca-audio. La segunda es débil (0,06 a 0,30) y da siempre un retraso de 100 a 167 ms (menos en el clip 09), que más parece sesgo de la medición que desfase real: no es una prueba. Lo medido de verdad: el audio de cada clip coincide con el de la fuente con un desfase de 0 a −10 ms, y video y audio salen del mismo corte.",
+  "Un solo video fuente, en inglés, con ponentes en panel. No se probó un podcast de dos personas en plano fijo, ni audio con música, ni otros idiomas.",
+  "Los 10 clips dependen de un portátil con 12 hilos compartidos con otros procesos: los tiempos de esta página son de esa PC y ese día, no una promesa de velocidad."
+ ],
+ "descartados": [
+  {
+   "ini_s": 3071.5,
+   "fin_s": 3130.8,
+   "motivo": "idea incompleta",
+   "datos": "datos-temp"
+  },
+  {
+   "ini_s": 2542.1,
+   "fin_s": 2591.4,
+   "motivo": "idea incompleta",
+   "datos": "datos-temp"
+  },
+  {
+   "ini_s": 2243.2,
+   "fin_s": 2303.4,
+   "motivo": "idea incompleta",
+   "datos": "datos-temp"
+  },
+  {
+   "ini_s": 513.2,
+   "fin_s": 554.5,
+   "motivo": "idea incompleta",
+   "datos": "datos-temp2"
+  }
+ ],
+ "sync": {
+  "clip-01-crew-13-teams-fixed-dragon-s-oxidizer-leak-befor": {
+   "cuadros_con_cara": 1163,
+   "cuadros": 1325,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 44.160783,
+   "dur_audio_s": 44.2,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 39.2,
+   "lag_ms": 100.0,
+   "corr_en_lag": 0.155,
+   "corr_en_0": 0.011,
+   "desfase_audio_vs_fuente_ms": [
+    0.0,
+    0.976
+   ],
+   "tramo_usado_s": [
+    273.84,
+    20.0
+   ]
+  },
+  "clip-02-nasa-crew-ground-teams-and-hardware-are-healthy-": {
+   "cuadros_con_cara": 855,
+   "cuadros": 1169,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 38.955583,
+   "dur_audio_s": 39.0,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 44.4,
+   "lag_ms": 100.0,
+   "corr_en_lag": 0.299,
+   "corr_en_0": 0.204,
+   "desfase_audio_vs_fuente_ms": [
+    -5.0,
+    0.955
+   ],
+   "tramo_usado_s": [
+    799.32,
+    20.0
+   ]
+  },
+  "clip-03-a-canadian-astronaut-s-first-mission-to-space": {
+   "cuadros_con_cara": 860,
+   "cuadros": 1042,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 34.7347,
+   "dur_audio_s": 34.8,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 65.3,
+   "lag_ms": 133.3,
+   "corr_en_lag": 0.092,
+   "corr_en_0": -0.128,
+   "desfase_audio_vs_fuente_ms": [
+    -10.0,
+    0.923
+   ],
+   "tramo_usado_s": [
+    907.5,
+    20.0
+   ]
+  },
+  "clip-04-four-science-experiments-heading-to-the-space-st": {
+   "cuadros_con_cara": 1084,
+   "cuadros": 1246,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 41.5415,
+   "dur_audio_s": 41.600021,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 58.5,
+   "lag_ms": 100.0,
+   "corr_en_lag": 0.056,
+   "corr_en_0": -0.02,
+   "desfase_audio_vs_fuente_ms": [
+    -5.0,
+    0.96
+   ],
+   "tramo_usado_s": [
+    960.74,
+    19.72
+   ]
+  },
+  "clip-05-spacex-s-number-one-priority-getting-the-crew-sa": {
+   "cuadros_con_cara": 1444,
+   "cuadros": 1750,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 58.324933,
+   "dur_audio_s": 58.4,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 75.1,
+   "lag_ms": 133.3,
+   "corr_en_lag": 0.129,
+   "corr_en_0": -0.232,
+   "desfase_audio_vs_fuente_ms": [
+    0.0,
+    0.996
+   ],
+   "tramo_usado_s": [
+    1229.27,
+    20.0
+   ]
+  },
+  "clip-06-nasa-wants-more-than-one-way-to-reach-low-earth-": {
+   "cuadros_con_cara": 1139,
+   "cuadros": 1271,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 42.358983,
+   "dur_audio_s": 42.4,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 41.0,
+   "lag_ms": 100.0,
+   "corr_en_lag": 0.109,
+   "corr_en_0": -0.028,
+   "desfase_audio_vs_fuente_ms": [
+    0.0,
+    0.976
+   ],
+   "tramo_usado_s": [
+    2080.45,
+    10.52
+   ]
+  },
+  "clip-07-cutting-a-valve-out-of-dragon-with-the-oxidizer-": {
+   "cuadros_con_cara": 1458,
+   "cuadros": 1635,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 54.50445,
+   "dur_audio_s": 54.6,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 95.6,
+   "lag_ms": 166.7,
+   "corr_en_lag": 0.104,
+   "corr_en_0": -0.219,
+   "desfase_audio_vs_fuente_ms": [
+    0.0,
+    0.968
+   ],
+   "tramo_usado_s": [
+    2182.48,
+    20.0
+   ]
+  },
+  "clip-08-starship-is-still-a-developmental-test-program": {
+   "cuadros_con_cara": 1440,
+   "cuadros": 1466,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 48.882167,
+   "dur_audio_s": 48.9,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 17.8,
+   "lag_ms": 166.7,
+   "corr_en_lag": 0.073,
+   "corr_en_0": -0.294,
+   "desfase_audio_vs_fuente_ms": [
+    0.0,
+    0.956
+   ],
+   "tramo_usado_s": [
+    2368.59,
+    20.0
+   ]
+  },
+  "clip-09-a-new-study-on-how-astronauts-make-a-home-in-spa": {
+   "cuadros_con_cara": 1057,
+   "cuadros": 1271,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 42.358983,
+   "dur_audio_s": 42.4,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 41.0,
+   "lag_ms": -300.0,
+   "corr_en_lag": 0.097,
+   "corr_en_0": -0.117,
+   "desfase_audio_vs_fuente_ms": [
+    0.0,
+    0.928
+   ],
+   "tramo_usado_s": [
+    2918.27,
+    20.0
+   ]
+  },
+  "clip-10-why-the-crew-13-mission-patch-nods-to-apollo-13": {
+   "cuadros_con_cara": 1183,
+   "cuadros": 1411,
+   "start_video_s": 0.0,
+   "start_audio_s": 0.0,
+   "dur_video_s": 47.047,
+   "dur_audio_s": 47.099979,
+   "dif_inicio_ms": 0.0,
+   "dif_duracion_ms": 53.0,
+   "lag_ms": 100.0,
+   "corr_en_lag": 0.12,
+   "corr_en_0": 0.024,
+   "desfase_audio_vs_fuente_ms": [
+    -10.0,
+    0.97
+   ],
+   "tramo_usado_s": [
+    3024.11,
+    20.0
+   ]
+  }
+ },
+ "stats": {
+  "audio_whisper_s": 727.4,
+  "t_whisper_s": 4026.2999999999997,
+  "motor_total_s": 2949.71,
+  "t_post_s": 1677.6000000000001
+ }
+}

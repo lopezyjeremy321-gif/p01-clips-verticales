@@ -1,0 +1,24 @@
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "60000/1001",
+            "avg_frame_rate": "60000/1001",
+            "nb_frames": "2082"
+        }
+    ],
+    "format": {
+        "duration": "34.800000",
+        "size": "21165257",
+        "bit_rate": "4865576"
+    }
+}
